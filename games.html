@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>EB Games: Videogames</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <style>
+        .header {
+            font-family:'Inter', sans-serif;
+            background-color: #005AC6;
+            padding: 0.5vh;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        }
+        a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+        li {
+            display: inline-block;
+            color: #E8E8E8;
+            padding: 10px;
+            border-radius: 10px;
+            border-width: 5px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        li:hover {
+            display: inline-block;
+            background-color: #000000;
+            padding: 10px;
+        }
+        li:active {
+            display: inline-block;
+            background-color: #E8E8E8;
+            padding: 10px;
+        }
+        .eblogo {
+            max-width: 100px;
+            float: left;
+            border-width: 300px;
+        }
+        nav{
+            margin: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+        .promo {
+            font-family:'Inter', sans-serif;
+            background-color: #00489e;
+            padding: 0.2vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+    margin-top: 50px;
+        }
+        .textopromo{
+            color: #E8E8E8;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 10vh;
+        }
+        .productsimg {
+            height: 40vh;
+            margin: 2vw;
+        }
+        .footer {
+width: 80%;
+padding-left: 10%;
+padding-right: 10%;
+display: flex;
+color: white;
+background: #025ece;
+justify-content: space-between;
+}
+.footer div {
+    text-align: center;
+}
+.footer h3 {
+font-weight: 300;
+margin-bottom: 30px;
+}
+.columna1 {
+    display: flex;
+    flex-direction: column;
+}
+.columnproducts{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+h4{
+    text-align: center;
+}
+button {
+     background-color: #db3232;
+     color: white;
+     border: none;
+     border-radius: 10px;
+     min-height: 25px;
+}
+input[type=email] {
+    height: 25px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+    </style>
+</head>
+<header>
+    <nav>
+        <div class="header">
+            <a href="index.html"><img src="imgs/eblogo.png" alt="EB Games" class="eblogo">
+                <a href="games.html"><li>Videojuegos</li></a>
+                <a href="consoles.html"><li>Consolas y hardware</li></a>
+                <a href="accessories.html"><li>Accesorios</li></a>
+                <a href="abouteb.html"><li>Sobre Nosotros</li></a>
+                </div>
+    </nav>
+<body style="width: 100%; margin: 0;">
+<div class="promo">
+    <p class="textopromo">Ahorra un 25% en productos seminuevos.</p>
+</div>
+<div class="products">
+    <div class="columnproducts">
+    <img src="imgs/games/game1.png" alt="Juego" class="productsimg">
+    <h4>Crash Bandicoot (PlayStation)</h4>
+    <h4>45,08€</h4>
+    </div>
+    <div class="columnproducts">
+    <img src="imgs/games/game2.png" alt="Juego" class="productsimg">
+    <h4>Final Fantasy VII (PlayStation)</h4>
+    <h4>45,08€</h4>
+    </div>
+    <div class="columnproducts">
+    <img src="imgs/games/game3.png" alt="Juego" class="productsimg">
+    <h4>Mario Kart 64 (Nintendo 64)</h4>
+    <h4>59,99€</h4>
+    </div>
+    <div class="columnproducts">
+    <img src="imgs/games/game4.png" alt="Juego" class="productsimg">
+    <h4>The Legend of Zelda: Ocarina of Time (Nintendo 64)</h4>
+    <h4>59,99€</h4>
+    </div>
+    <div class="columnproducts">
+    <img src="imgs/games/game5.png" alt="Juego" class="productsimg">
+    <h4>The Need for Speed (Sega Saturn)</h4>
+    <h4>59,99€</h4>
+    </div>
+    <div class="columnproducts">
+    <img src="imgs/games/game6.png" alt="Juego" class="productsimg">
+    <h4>Sonic Adventure (Sega Dreamcast)</h4>
+    <h4>39,99€</h4>
+    </div>
+    <div class="columnproducts">
+    <img src="imgs/games/game7.png" alt="Juego" class="productsimg">
+    <h4>Halo: Combat Evolved (Xbox)</h4>
+    <h4>59,99€</h4>
+    </div>
+    <div class="columnproducts">
+    <img src="imgs/games/game8.png" alt="Juego" class="productsimg">
+    <h4>Animal Crossing (Nintendo GameCube)</h4>
+    <h4>49,99€</h4>
+    </div>
+</div>
+</body>
+<div class="footer">
+    <div class="columna1">
+        <h3>Enlaces del sitio</h3>
+        <a class="a2" href="games.html">Videojuegos</a>
+        <a class="a2" href="consoles.html">Consolas</a>
+        <a class="a2" href="accessories.html">Accesorios</a>
+        <a class="a2" href="abouteb.html">Sobre nosotros</a>
+    </div>
+    <div class="columna1">
+        <h3>Subscríbete a la Newsletter</h3>
+        <form>
+        <input type="email" placeholder="Dirección de email">
+        <button type="submit">Suscribirse</button>
+        </form>
+    </div>
+    <div class="columna1">
+        <h3>Contacto</h3>
+        <p>EB GAMES</p>
+        <p>Brisbane <br>Queensland, Australia</p>
+  </div>
+  </html>
